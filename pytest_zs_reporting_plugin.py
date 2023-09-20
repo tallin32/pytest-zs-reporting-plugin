@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-
+from pytest import StashKey, Stash
+from custom_format import testcase
 
 def pytest_addoption(parser):
     group = parser.getgroup('zs-reporting-plugin')
